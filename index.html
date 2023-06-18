@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS-->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Boletim</title>
+</head>
+<!--BODY-->
+
+<body>
+    <form action="">
+        <div id="boletimm">
+            <span id="atencao">
+                <h3 id="atencaoh"></h3>
+            </span>
+            <section id="inform">
+                <span>
+                    <label class="aluno" for="">Aluno</label>
+                    <input id="nome" type="text" autofocus>
+                </span>
+                <span>
+                    <label for="">Matrícula</label>
+                    <input id="matricula" type="text">
+                </span>
+                <span>
+                    <label for="">Turma</label>
+                    <input id="turma" type="text">
+                </span>
+            </section>
+            <section id="boletimTrimestral">
+                <div id="bim1">
+                    <h3>1º Bimestre</h3><br>
+                    <label for="">Matemática</label>
+                    <input class="notas" type="number">
+                    <label for="">Português</label>
+                    <input class="notas" type="number">
+                    <label for="">Física</label>
+                    <input class="notas" type="number"><br>
+                    <label for="">Média</label>
+                    <input type="number" class="media" disabled value="0.00">
+                </div>
+                <div id="bim2">
+                    <h3>2º Bimestre</h3><br>
+                    <label for="">Matemática</label>
+                    <input class="notas" type="number">
+                    <label for="">Português</label>
+                    <input class="notas" type="number">
+                    <label for="">Física</label>
+                    <input class="notas" type="number"><br>
+                    <label for="">Média</label>
+                    <input type="number" class="media" disabled value="0.00">
+                </div>
+                <div id="bim3">
+                    <h3>3º Bimestre</h3><br>
+                    <label for="">Matemática</label>
+                    <input class="notas" type="number">
+                    <label for="">Português</label>
+                    <input class="notas" type="number">
+                    <label for="">Física</label>
+                    <input class="notas" type="number"><br>
+                    <label for="">Média</label>
+                    <input type="number" class="media" disabled value="0.00">
+                </div>
+                <div id="bim4">
+                    <h3>4º Bimestre</h3><br>
+                    <label for="">Matemática</label>
+                    <input class="notas" type="number">
+                    <label for="">Português</label>
+                    <input class="notas" type="number">
+                    <label for="">Física</label>
+                    <input class="notas" type="number"><br>
+                    <label for="">Média</label>
+                    <input type="number" class="media" disabled value="0.00">
+                </div>
+            </section>
+            <section id="resumo">
+                <div id="final">
+                    <div id="mediaf">
+                        <label for="">Média Anual</label>
+                        <input id="mediafinal" type="number" disabled value="0.00">
+                    </div>
+                    <div id="resu">
+                        <h1 id="resultado"></h1>
+                    </div>
+                </div>
+                <button id="save">Gravar</button>
+            </section>
+        </div>
+    </form>
+
+    <!--JAVASCRIPT-->
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
