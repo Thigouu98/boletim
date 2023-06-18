@@ -4,6 +4,7 @@
     --fundo2: rgba(52, 135, 170, 0.542);
     --fundo: rgba(85, 134, 219, 0.5);
     --bordas: rgba(52, 135, 170, 0.379);
+    color: white;
 }
 
 body {
