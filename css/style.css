@@ -13,6 +13,8 @@ body {
     justify-content: center;
     align-items: center;
     margin: 5px;
+    background: #181A1B;
+    color: white;
 }
 div#boletimm{
     display: flex;
